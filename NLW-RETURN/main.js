@@ -1,4 +1,12 @@
+window.addEventListener('scroll', onScroll);
+onScroll();
+
 function onScroll(){
+    showNavOnScroll();
+    showBackToTopButtonOnScroll();
+}
+
+function showNavOnScroll(){
     if(scrollY > 0){
         navigation.classList.add('scroll');
     }
@@ -6,6 +14,16 @@ function onScroll(){
         navigation.classList.remove('scroll');
     }
 }
+
+function showBackToTopButtonOnScroll(){
+    if(scrollY > 650){
+        backToTopButton.classList.add('show');
+    }
+    else {
+        backToTopButton.classList.remove('show');
+    }
+}
+
 
 function openMenu(){
     document.body.classList.add('menu-expanded');
