@@ -483,7 +483,8 @@ footer .social-links{
     visibility: visible;
     transform: translateY(0);
 }
-/*=== FOOTER ===========================*/
+
+/*=== RESPONSIVO ===========================*/
 @media(min-width: 1024px){
 
     /*=== GERAL ===========================*/
@@ -498,8 +499,13 @@ footer .social-links{
     section{
         padding-block: 16rem;
     }
-    /*=== NAVIGATION ===========================*/
 
+    section h2{
+        font-size: 4rem;
+        line-height: 5.2rem;
+    }
+
+    /*=== NAVIGATION ===========================*/
     /*reset*/
     nav#navigation .wrapper *{
         margin: 0;
@@ -659,6 +665,21 @@ footer .social-links{
     }
     #home img{
         width: 42rem;
+    }
+
+    /*=== SERVICES ===========================*/
+    #services h2{
+        width: 47rem;
+        margin-inline: auto;
+    }
+    #services .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #services .card{
+        width: 30%;
+        flex-grow: 1;
+        gap: 4rem;
     }
 
 }
