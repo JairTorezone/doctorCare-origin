@@ -8,11 +8,10 @@ https://jairtorezone.github.io/doctorCare-origin/
 https://github.com/JairTorezone/doctorCare-origin
 
 
-Construção de uma landing page na semana NLW da Rocketseat é uma aplicação web onde desenvolvemos um site de consulta de exames, contatos e serviços prestados
-de assistência médica simplificada. O projeto é uma pagina web onde são aplicados os fundamentos de HTML, css e Java Script.
+Construção de uma landing page na semana NLW da Rocketseat é uma aplicação web onde desenvolvemos um site de consultas de exames, contatos e serviços prestados de assistência médica simplificada. O projeto é uma landing web responsivo onde são aplicados os fundamentos de HTML, css e Java Script.
 
 ## Layout mobile
-![Mobile 1](https://github.com/JairTorezone/doctorCare-origin/blob/main/assets/mobile-inicio.png) 
+![Mobile 1](https://github.com/JairTorezone/doctorCare-origin/blob/main/assets/mobile-inicio.png) <br> <br> 
 ![Mobile 2](https://github.com/JairTorezone/doctorCare-origin/blob/main/assets/Menu%20-%20Mobile.png) 
 
 
